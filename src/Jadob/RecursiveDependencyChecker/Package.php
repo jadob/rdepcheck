@@ -11,6 +11,8 @@ namespace Jadob\RecursiveDependencyChecker;
  */
 class Package
 {
+    protected bool $root;
+    protected ?Package $parent = null;
     protected array $requires = [];
     protected array $replaces = [];
     protected ?string $license = null;
