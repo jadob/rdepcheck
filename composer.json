@@ -1,4 +1,9 @@
 {
+    "name": "jadob/rdepcheck",
+    "license": "MIT",
+    "bin": [
+        "rdepcheck"
+    ],
     "require": {
         "symfony/console": "^6.1"
     }
